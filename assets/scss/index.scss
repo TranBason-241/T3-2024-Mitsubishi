@@ -12,7 +12,7 @@
 }
 
 .text_title {
-    width: 850px;
+    width: 100%;
     max-width: 100%;
     margin: 0px auto;
     text-align: center;
@@ -21,6 +21,10 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+    position: absolute;
+    margin-top: 0px;
+    bottom: -7%;
+    color: white;
 }
 .text_content {
     width: 700px;
@@ -70,6 +74,23 @@
     margin-top: 0px;
 }
 
+.cover {
+    height: calc(100vh - 46px);
+    background-color: black;
+    display: none;
+}
+.group_img_1 {
+    top: -12%;
+}
+.group_img_2 {
+    position: absolute;
+    top: 73%;
+    right: 56%;
+    max-width: 68px;
+}
+.active-page {
+    display: block !important;
+}
 @media (min-width: 577px) {
     .mobile {
         // display: none !important;
