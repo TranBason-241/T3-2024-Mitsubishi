@@ -1,56 +1,102 @@
 @font-face {
-    font-family: "K2D";
-    src: url("../fonts/K2D-Bold.eot");
-    src: url("../fonts/K2D-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Bold.woff2") format("woff2"),
-        url("../fonts/K2D-Bold.woff") format("woff"), url("../fonts/K2D-Bold.ttf") format("truetype"),
-        url("../fonts/K2D-Bold.svg#K2D-Bold") format("svg");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "K2D";
-    src: url("../fonts/K2D-Regular.eot");
-    src: url("../fonts/K2D-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/K2D-Regular.woff2") format("woff2"), url("../fonts/K2D-Regular.woff") format("woff"),
-        url("../fonts/K2D-Regular.ttf") format("truetype"), url("../fonts/K2D-Regular.svg#K2D-Regular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "K2D";
-    src: url("../fonts/K2D-Italic.eot");
-    src: url("../fonts/K2D-Italic.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/K2D-Italic.woff2") format("woff2"), url("../fonts/K2D-Italic.woff") format("woff"),
-        url("../fonts/K2D-Italic.ttf") format("truetype"), url("../fonts/K2D-Italic.svg#K2D-Italic") format("svg");
+    font-family: "SVN-Gilroy";
+    src: url("../fonts/SVN-GilroyItalic.eot");
+    src:
+        url("../fonts/SVN-GilroyItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-GilroyItalic.woff2") format("woff2"),
+        url("../fonts/SVN-GilroyItalic.woff") format("woff"),
+        url("../fonts/SVN-GilroyItalic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Philosopher";
-    src: url("../fonts/Philosopher-Regular.eot");
-    src: url("../fonts/Philosopher-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Philosopher-Regular.woff2") format("woff2"),
-        url("../fonts/Philosopher-Regular.woff") format("woff"),
-        url("../fonts/Philosopher-Regular.ttf") format("truetype"),
-        url("../fonts/Philosopher-Regular.svg#Philosopher-Regular") format("svg");
+    font-family: "SVN-Gilroy";
+    src: url("../fonts/SVN-GilroyBold.eot");
+    src:
+        url("../fonts/SVN-GilroyBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-GilroyBold.woff2") format("woff2"),
+        url("../fonts/SVN-GilroyBold.woff") format("woff"),
+        url("../fonts/SVN-GilroyBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("../fonts/SVN-GilroyLight.eot");
+    src:
+        url("../fonts/SVN-GilroyLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-GilroyLight.woff2") format("woff2"),
+        url("../fonts/SVN-GilroyLight.woff") format("woff"),
+        url("../fonts/SVN-GilroyLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UTM Helve";
+    src: url("../fonts/UTMHelveBold.eot");
+    src:
+        url("../fonts/UTMHelveBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/UTMHelveBold.woff2") format("woff2"),
+        url("../fonts/UTMHelveBold.woff") format("woff"),
+        url("../fonts/UTMHelveBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UTM HelvetIns";
+    src: url("../fonts/UTMHelvetIns.eot");
+    src:
+        url("../fonts/UTMHelvetIns.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/UTMHelvetIns.woff2") format("woff2"),
+        url("../fonts/UTMHelvetIns.woff") format("woff"),
+        url("../fonts/UTMHelvetIns.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "SFU Honeymoon";
-    src: url("../fonts/SFUHoneymoon.eot");
-    src: url("../fonts/SFUHoneymoon.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/SFUHoneymoon.woff2") format("woff2"), url("../fonts/SFUHoneymoon.woff") format("woff"),
-        url("../fonts/SFUHoneymoon.ttf") format("truetype"), url("../fonts/SFUHoneymoon.svg#SFUHoneymoon") format("svg");
+    font-family: "SVN-Gilroy";
+    src: url("../fonts/SVN-Gilroy.eot");
+    src:
+        url("../fonts/SVN-Gilroy.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-Gilroy.woff2") format("woff2"),
+        url("../fonts/SVN-Gilroy.woff") format("woff"),
+        url("../fonts/SVN-Gilroy.ttf") format("truetype");
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "UTM Banque";
+    src: url("../fonts/UTMBanque.eot");
+    src:
+        url("../fonts/UTMBanque.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/UTMBanque.woff2") format("woff2"),
+        url("../fonts/UTMBanque.woff") format("woff"),
+        url("../fonts/UTMBanque.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UTM Banque";
+    src: url("../fonts/UTMBanqueBold.eot");
+    src:
+        url("../fonts/UTMBanqueBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/UTMBanqueBold.woff2") format("woff2"),
+        url("../fonts/UTMBanqueBold.woff") format("woff"),
+        url("../fonts/UTMBanqueBold.ttf") format("truetype");
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
