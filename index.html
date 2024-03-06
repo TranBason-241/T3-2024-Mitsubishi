@@ -1,328 +1,334 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-    <!-- Core stylesheet -->
-    <link type="text/css" rel="stylesheet" href="assets/css/fontawesome.min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/general_v2_min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/animate-v4.min.css" />
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
-    <!-- End stylesheet -->
+  <!-- Core stylesheet -->
+  <link type="text/css" rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/general_v2_min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/animate-v4.min.css" />
 
-    <title>Nhớ sửa title nhé</title>
-  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+  <!-- End stylesheet -->
 
-  <body>
-    <!-- Document Warpper -->
-    <div id="warpper" class="clearfix">
-      <!-- Top Nav -->
-      <div id="topbar" class="topbar fixed-top clearfix nav-down">
-        <div class="container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=""><span class="sr-only">Toggle navigation</span><span class="toggle-icon"></span></button>
-          <a href="https://vnexpress.net/" class="logo" id="logo"><img src="assets/images/logo-150x29.png" alt="VnExpress" class="pc-only img-100" /></a>
-          <div class="block-right">
-            <a href="#box_comment" class="button-comments count_comment" data-target="">
-              <i class="fas fa-comment"></i>
-              <span class="counter">Bình luận</span>
-            </a>
-            <ul class="list-inline social">
-              <li>
-                <a href="javascript:void(0);" class="si-facebook shape-circle social-item fb_share" data-type="fb_share"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="javascript:void(0);" class="si-twitter shape-circle social-item tw_share" data-type="tw_share"><i class="fab fa-twitter"></i></a>
-              </li>
-            </ul>
-            <form action="https://timkiem.vnexpress.net/" method="get" class="block-right">
-              <div class="search">
-                <input autocomplete="off" type="text" class="search-input" placeholder="Tìm kiếm" maxlength="80" name="q" />
-                <span class="search-btn">
-                  <button type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </span>
-              </div>
-            </form>
-          </div>
+  <title>Nhớ sửa title nhé</title>
+</head>
+
+<body>
+  <!-- Document Warpper -->
+  <div id="warpper" class="clearfix">
+    <!-- Top Nav -->
+    <div id="topbar" class="topbar fixed-top clearfix nav-down">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=""><span class="sr-only">Toggle navigation</span><span class="toggle-icon"></span></button>
+        <a href="https://vnexpress.net/" class="logo" id="logo"><img src="assets/images/logo-150x29.png" alt="VnExpress" class="pc-only img-100" /></a>
+        <div class="block-right">
+          <a href="#box_comment" class="button-comments count_comment" data-target="">
+            <i class="fas fa-comment"></i>
+            <span class="counter">Bình luận</span>
+          </a>
+          <ul class="list-inline social">
+            <li>
+              <a href="javascript:void(0);" class="si-facebook shape-circle social-item fb_share" data-type="fb_share"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="si-twitter shape-circle social-item tw_share" data-type="tw_share"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+          <form action="https://timkiem.vnexpress.net/" method="get" class="block-right">
+            <div class="search">
+              <input autocomplete="off" type="text" class="search-input" placeholder="Tìm kiếm" maxlength="80" name="q" />
+              <span class="search-btn">
+                <button type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
         </div>
       </div>
-      <!-- End Top Nav -->
-      <!-- Menu -->
-      <div class="mask-content"></div>
-      <div id="menu-box" class="menu-box" tabindex="5000">
-        <div class="box_width_common">
-          <div class="block_scoll_menu">
-            <ul class="list_item_panel">
-              <li>
-                <a href="https://vnexpress.net/"><i class="ic ic-m-home"></i>Trang chủ</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/thoi-su"><i class="ic ic-m-news"></i>Thời sự</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/goc-nhin"><i class="ic ic-m-opinion"></i>Góc nhìn</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/the-gioi"><i class="ic ic-m-world"></i>Thế giới</a>
-              </li>
-              <li class="active">
-                <a href="https://vnexpress.net/kinh-doanh"><i class="ic ic-m-business"></i>Kinh doanh</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/giai-tri"><i class="ic ic-m-entertainment"></i>Giải trí</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/the-thao"><i class="ic ic-m-sport"></i>Thể thao</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/phap-luat"><i class="ic ic-m-law"></i>Pháp luật</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/giao-duc"><i class="ic ic-m-education"></i>Giáo dục</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/suc-khoe"><i class="ic ic-m-health"></i>Sức khỏe</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/doi-song"><i class="ic ic-m-family"></i>Đời sống</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/du-lich"><i class="ic ic-m-travel"></i>Du lịch</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/khoa-hoc"><i class="ic ic-m-science"></i>Khoa học</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/so-hoa"><i class="ic ic-m-technology"></i>Số hóa</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/oto-xe-may"><i class="ic ic-m-car"></i>Xe</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/y-kien"><i class="ic ic-m-social"></i>Ý kiến</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/tam-su"><i class="ic ic-m-talk"></i>Tâm sự</a>
-              </li>
-              <li>
-                <a href="https://video.vnexpress.net"><i class="ic ic-m-video"></i>Video</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/anh"><i class="ic ic-m-photo"></i>Ảnh</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/infographics"><i class="ic ic-m-infographic"></i>Infographics</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/cuoi"><i class="ic ic-m-fun"></i>Cười</a>
-              </li>
-              <li>
-                <a href="https://raovat.vnexpress.net"><i class="ic ic-m-ecom"></i>Fsell</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/24h-qua" class="bg_666"><i class="ic ic-m-24h"></i>24h qua</a>
-              </li>
-              <li>
-                <a href="https://vnexpress.net/lien-he-toa-soan/" class="bg_e8e8"><i class="ic ic-m-contact"></i>Liên hệ Tòa soạn</a>
-              </li>
-              <li class="end">
-                <a href="https://vnexpress.net/contact.htm" class="bg_e8e8"><i class="ic ic-m-mail"></i>Thông tin Tòa soạn</a>
-              </li>
-            </ul>
-            <div class="coppy_right_left width_common">
-              <i class="ic ic-caret-2-down"></i>
-              <div class="txt_coppy_right">
-                <p>&copy; Copyright 1997 - VnExpress.net, All rights reserved</p>
-                <p>&reg; VnExpress giữ bản quyền nội dung trên website này.</p>
-              </div>
-              <div class="txt_lienhe">
-                Hotline: <br />
-                <a href="tel:0838880123">083.888.0123 (Hà Nội)</a> <br />
-                <a href="tel:0822333555">082.233.3555 (TP HCM)</a>
-              </div>
+    </div>
+    <!-- End Top Nav -->
+    <!-- Menu -->
+    <div class="mask-content"></div>
+    <div id="menu-box" class="menu-box" tabindex="5000">
+      <div class="box_width_common">
+        <div class="block_scoll_menu">
+          <ul class="list_item_panel">
+            <li>
+              <a href="https://vnexpress.net/"><i class="ic ic-m-home"></i>Trang chủ</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/thoi-su"><i class="ic ic-m-news"></i>Thời sự</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/goc-nhin"><i class="ic ic-m-opinion"></i>Góc nhìn</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/the-gioi"><i class="ic ic-m-world"></i>Thế giới</a>
+            </li>
+            <li class="active">
+              <a href="https://vnexpress.net/kinh-doanh"><i class="ic ic-m-business"></i>Kinh doanh</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/giai-tri"><i class="ic ic-m-entertainment"></i>Giải trí</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/the-thao"><i class="ic ic-m-sport"></i>Thể thao</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/phap-luat"><i class="ic ic-m-law"></i>Pháp luật</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/giao-duc"><i class="ic ic-m-education"></i>Giáo dục</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/suc-khoe"><i class="ic ic-m-health"></i>Sức khỏe</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/doi-song"><i class="ic ic-m-family"></i>Đời sống</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/du-lich"><i class="ic ic-m-travel"></i>Du lịch</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/khoa-hoc"><i class="ic ic-m-science"></i>Khoa học</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/so-hoa"><i class="ic ic-m-technology"></i>Số hóa</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/oto-xe-may"><i class="ic ic-m-car"></i>Xe</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/y-kien"><i class="ic ic-m-social"></i>Ý kiến</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/tam-su"><i class="ic ic-m-talk"></i>Tâm sự</a>
+            </li>
+            <li>
+              <a href="https://video.vnexpress.net"><i class="ic ic-m-video"></i>Video</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/anh"><i class="ic ic-m-photo"></i>Ảnh</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/infographics"><i class="ic ic-m-infographic"></i>Infographics</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/cuoi"><i class="ic ic-m-fun"></i>Cười</a>
+            </li>
+            <li>
+              <a href="https://raovat.vnexpress.net"><i class="ic ic-m-ecom"></i>Fsell</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/24h-qua" class="bg_666"><i class="ic ic-m-24h"></i>24h qua</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/lien-he-toa-soan/" class="bg_e8e8"><i class="ic ic-m-contact"></i>Liên hệ Tòa soạn</a>
+            </li>
+            <li class="end">
+              <a href="https://vnexpress.net/contact.htm" class="bg_e8e8"><i class="ic ic-m-mail"></i>Thông tin Tòa soạn</a>
+            </li>
+          </ul>
+          <div class="coppy_right_left width_common">
+            <i class="ic ic-caret-2-down"></i>
+            <div class="txt_coppy_right">
+              <p>&copy; Copyright 1997 - VnExpress.net, All rights reserved</p>
+              <p>&reg; VnExpress giữ bản quyền nội dung trên website này.</p>
+            </div>
+            <div class="txt_lienhe">
+              Hotline: <br />
+              <a href="tel:0838880123">083.888.0123 (Hà Nội)</a> <br />
+              <a href="tel:0822333555">082.233.3555 (TP HCM)</a>
             </div>
           </div>
         </div>
-        <div id="ascrail2000" class="nicescroll-rails">
-          <div class="vne-hr1"></div>
-        </div>
-        <div id="ascrail2000-hr" class="nicescroll-rails">
-          <div class="vne-hr2"></div>
-        </div>
       </div>
-      <!-- End Menu -->
-      <!-- Main Content -->
-      <div class="section-content clearfix">
-        <div class="wrapper-content">
-          <div id="overlay"></div>
-          <div class="my_container is-content">
-            <div class="cover-container">
-              <div class="cover cover-1">
-                <div class="group_image group_img_1">
-                  <img loading="lazy" class="eff-screen" src="assets/images/group_1_1.png" alt="" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="0" />
-                  <img loading="lazy" src="assets/images/group_1_2.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="800" data-aos-delay="300" alt="" />
-                  <img src="assets/images/group_1_3.png" class="eff-screen" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" alt="" data-aos-delay="700" />
+      <div id="ascrail2000" class="nicescroll-rails">
+        <div class="vne-hr1"></div>
+      </div>
+      <div id="ascrail2000-hr" class="nicescroll-rails">
+        <div class="vne-hr2"></div>
+      </div>
+    </div>
+    <!-- End Menu -->
+    <!-- Main Content -->
+    <div class="section-content clearfix">
+      <div class="wrapper-content">
+        <div id="overlay"></div>
+        <div class="my_container is-cover">
+          <div class="cover-container">
+            <div class="cover cover-1">
+              <div class="group_image group_img_1">
+                <img loading="lazy" class="eff-screen" src="assets/images/group_1_1.png" alt="" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="0" />
+                <img loading="lazy" src="assets/images/group_1_2.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="800" data-aos-delay="300" alt="" />
+                <img src="assets/images/group_1_3.png" class="eff-screen" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" alt="" data-aos-delay="700" />
 
-                  <div class="group_image group_img_2">
-                    <img loading="lazy" class="eff-screen" src="assets/images/group_2_1.png" alt="" data-aos="zoom-out" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="0" />
-                    <img class="a-move-down" loading="lazy" src="assets/images/group_2_2.png" data-aos="fade-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300" alt="" />
-                  </div>
-
-                  <p class="text_title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="1000">
-                    Ông Tatsuo Nakamura, Phó chủ tịch, CEO Mitsubishi Motors Nhật Bản kỳ vọng <br />
-                    Xforce sẽ mở ra nhóm khách hàng mới cho hãng Nhật,<br />
-                    trên nền tảng thành công của Xpander.
-                  </p>
+                <div class="group_image group_img_2">
+                  <img loading="lazy" class="eff-screen" src="assets/images/group_2_1.png" alt="" data-aos="zoom-out" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="0" />
+                  <img class="a-move-down" loading="lazy" src="assets/images/group_2_2.png" data-aos="fade-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300" alt="" />
                 </div>
 
-                <div class="bg-bottom-cover"></div>
-              </div>
-              <div class="cover cover-2">
-                <img src="assets/images/img-1.png" alt="" class="img img-1" />
-                <div class="derection-container">
-                  <p>Cuộn chuột để đọc bài</p>
-                  <img src="assets/images/arrow.png" alt="" class="img img-arrow" />
-                </div>
+                <p class="text_title t-pc" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="1000">
+                  Ông Tatsuo Nakamura, Phó chủ tịch, CEO Mitsubishi Motors Nhật Bản kỳ vọng <br />
+                  Xforce sẽ mở ra nhóm khách hàng mới cho hãng Nhật,<br />
+                  trên nền tảng thành công của Xpander.
+                </p>
               </div>
 
-              <!-- <div class="cover cover-2 page" pageIndex="2">
+              <div class="bg-bottom-cover"></div>
+            </div>
+            <div class="cover cover-2">
+              <img src="assets/images/img-1.png" alt="" class="img img-1" />
+              <!-- <p class="text_title t-tab" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="1000">
+                Ông Tatsuo Nakamura, Phó chủ tịch, CEO Mitsubishi Motors Nhật Bản kỳ vọng <br />
+                Xforce sẽ mở ra nhóm khách hàng mới cho hãng Nhật,<br />
+                trên nền tảng thành công của Xpander.
+              </p> -->
+              <div class="derection-container">
+                <p>Cuộn chuột để đọc bài</p>
+                <img src="assets/images/arrow.png" alt="" class="img img-arrow" />
+              </div>
+            </div>
+
+            <!-- <div class="cover cover-2 page" pageIndex="2">
                 <h2>hahahah</h2>
               </div> -->
-            </div>
-            <div class="content-container">
-              <div class="nav-container">
-                <div class="nav-note">
-                  <p>click vào câu hỏi để chuyển trang</p>
-                  <i class="fal fa-long-arrow-right"></i>
-                </div>
-                <div class="nav-list">
-                  <div class="nav-item active-nav" value="1">
-                    <p>1</p>
-                  </div>
-                  <div class="nav-item" value="2">
-                    <p>2</p>
-                  </div>
-                  <div class="nav-item" value="3">
-                    <p>3</p>
-                  </div>
-                  <div class="nav-item" value="4">
-                    <p>4</p>
-                  </div>
-                  <div class="nav-item" value="5">
-                    <p>5</p>
-                  </div>
-                  <div class="nav-item" value="6">
-                    <p>6</p>
-                  </div>
-                  <div class="nav-item" value="7">
-                    <p>7</p>
-                  </div>
-                </div>
-                <p class="to-home">Về trang đầu</p>
+          </div>
+          <div class="content-container">
+            <div class="nav-container">
+              <div class="nav-note">
+                <p>click vào câu hỏi để chuyển trang</p>
+                <i class="fal fa-long-arrow-right"></i>
               </div>
-              <div class="page-container">
-                <div class="page page-1 active-page" index="1">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">1</p>
-                    <p class="page-title">
-                      Những tính năng, công nghệ mới nào lần đầu tiên được <br />
-                      Mitsubishi Motors trang bị trên Xforce?
-                    </p>
-                  </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_1">
-                        <p class="text_content t-content">
-                          - Xforce được Mitsubishi Motors thiết kế riêng cho thị trường châu Á, chúng tôi bổ sung hàng loạt tính năng để chiếc xe phù hợp với nhu cầu người dùng tại đây. Đầu tiên là
-                          chế độ lái “Đường ngập nước”, có khả năng cải thiện khả năng vào cua và độ ổn định khi di chuyển trên đường trơn trượt. Đây là chế độ vận hành giúp người lái có thể tự tin
-                          hơn khi di chuyển qua những quãng đường ngập nước nhẹ.
-                        </p>
-                        <p class="text_content t-content">
-                          Chúng tôi cũng phát triển chức năng chấm điểm lái xe, với sự đồng hành của tay đua Hiroshi Masuoka, người từng 2 lần vô địch đường đua Dakar Rally. Chức năng này được
-                          Mitsubishi Motors nghiên cứu kỹ càng và rất thú vị, hứa hẹn mang đến trải nghiệm lái xe đặc biệt ngay cả trên những cung đường hàng ngày.
-                        </p>
-                        <p class="text_content t-content">
-                          Ở nội thất, Xforce có 3 tính năng hoàn toàn mới. Đó là dàn âm thanh Dynamic Sound Yamaha Premium, được chúng tôi phối hợp phát triển cùng tập đoàn Yamaha. Hệ thống bao gồm 8
-                          loa với 4 cài đặt âm thanh phù hợp với gu âm nhạc cũng như tâm trạng của người dùng, bao gồm Lively (cài đặt mặc định), Signature, Powerful và Relaxing, cho trải nghiệm bên
-                          trong cabin thêm phần thú vị.
-                        </p>
-                        <p class="text_content t-content">
-                          Tiếp theo, việc sử dụng WebLink™ 5 cho phép người dùng kết nối điện thoại thông minh và trình chiếu các ứng dụng trên màn hình lớn. Cuối cùng, Xforce sử dụng chất liệu
-                          mélange cho phần đệm của bảng điều khiển, phủ dài tới viền cửa. Chất liệu này có khả năng chống bẩn tốt.
-                        </p>
-                      </div>
+              <div class="nav-list">
+                <div class="nav-item active-nav" value="1">
+                  <p>1</p>
+                </div>
+                <div class="nav-item" value="2">
+                  <p>2</p>
+                </div>
+                <div class="nav-item" value="3">
+                  <p>3</p>
+                </div>
+                <div class="nav-item" value="4">
+                  <p>4</p>
+                </div>
+                <div class="nav-item" value="5">
+                  <p>5</p>
+                </div>
+                <div class="nav-item" value="6">
+                  <p>6</p>
+                </div>
+                <div class="nav-item" value="7">
+                  <p>7</p>
+                </div>
+              </div>
+              <p class="to-home">Về trang đầu</p>
+            </div>
+            <div class="page-container">
+              <div class="page page-1 active-page" index="1">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">1</p>
+                  <p class="page-title">
+                    Những tính năng, công nghệ mới nào lần đầu tiên được <br />
+                    Mitsubishi Motors trang bị trên Xforce?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_1">
+                      <p class="text_content t-content">
+                        - Xforce được Mitsubishi Motors thiết kế riêng cho thị trường châu Á, chúng tôi bổ sung hàng loạt tính năng để chiếc xe phù hợp với nhu cầu người dùng tại đây. Đầu tiên là
+                        chế độ lái “Đường ngập nước”, có khả năng cải thiện khả năng vào cua và độ ổn định khi di chuyển trên đường trơn trượt. Đây là chế độ vận hành giúp người lái có thể tự tin
+                        hơn khi di chuyển qua những quãng đường ngập nước nhẹ.
+                      </p>
+                      <p class="text_content t-content">
+                        Chúng tôi cũng phát triển chức năng chấm điểm lái xe, với sự đồng hành của tay đua Hiroshi Masuoka, người từng 2 lần vô địch đường đua Dakar Rally. Chức năng này được
+                        Mitsubishi Motors nghiên cứu kỹ càng và rất thú vị, hứa hẹn mang đến trải nghiệm lái xe đặc biệt ngay cả trên những cung đường hàng ngày.
+                      </p>
+                      <p class="text_content t-content">
+                        Ở nội thất, Xforce có 3 tính năng hoàn toàn mới. Đó là dàn âm thanh Dynamic Sound Yamaha Premium, được chúng tôi phối hợp phát triển cùng tập đoàn Yamaha. Hệ thống bao gồm 8
+                        loa với 4 cài đặt âm thanh phù hợp với gu âm nhạc cũng như tâm trạng của người dùng, bao gồm Lively (cài đặt mặc định), Signature, Powerful và Relaxing, cho trải nghiệm bên
+                        trong cabin thêm phần thú vị.
+                      </p>
+                      <p class="text_content t-content">
+                        Tiếp theo, việc sử dụng WebLink™ 5 cho phép người dùng kết nối điện thoại thông minh và trình chiếu các ứng dụng trên màn hình lớn. Cuối cùng, Xforce sử dụng chất liệu
+                        mélange cho phần đệm của bảng điều khiển, phủ dài tới viền cửa. Chất liệu này có khả năng chống bẩn tốt.
+                      </p>
                     </div>
-                    <div class="right-container" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000">
-                      <img src="assets/images/bg-text.png" alt="" class="img img-text img-text-1" />
-                      <div class="swiper mySwiper3">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-1/1.jpg" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-1/2.jpg" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-1/3.jpg" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-1/4.jpg" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-1/5.jpg" />
-                          </div>
+                  </div>
+                  <div class="right-container" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000">
+                    <img src="assets/images/bg-text.png" alt="" class="img img-text img-text-1" />
+                    <div class="swiper mySwiper3">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-1/1.jpg" />
                         </div>
-                        <div class="page-1-group-btn">
-                          <i class="far fa-long-arrow-alt-right swiper-button-next"></i>
-                          <div class="swiper-pagination"></div>
-                          <i class="far fa-long-arrow-alt-left swiper-button-prev"></i>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-1/2.jpg" />
                         </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-1/3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-1/4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-1/5.jpg" />
+                        </div>
+                      </div>
+                      <div class="page-1-group-btn">
+                        <i class="far fa-long-arrow-alt-right swiper-button-next"></i>
+                        <div class="swiper-pagination"></div>
+                        <i class="far fa-long-arrow-alt-left swiper-button-prev"></i>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="page page-2" index="2">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">2</p>
-                    <p class="page-title">
-                      Giới chuyên môn đánh giá khá cao chất lượng của bộ loa <br />
-                      trên Xforce. Vì sao Mitsubishi Motors lại chọn hợp tác cùng Yamaha?
-                    </p>
-                  </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">
-                          - Chúng tôi đã làm việc với nhiều nhà sản xuất loa khác nhau trong quá trình phát triển Xforce. Có nhà sản xuất cũng mang đến những sản phẩm hiệu suất cao khi đánh giá về
-                          tính khả dụng lẫn nhịp điệu âm thanh, tương tự Yamaha. Nhưng khi đánh giá về phần nhạc, chúng tôi chọn Yamaha bởi họ mang đến trải nghiệm như một buổi hoà nhạc trực tiếp. Các
-                          hãng sản xuất âm thanh khác cũng rất xuất sắc, đặc biệt ở mảng kỹ thuật. Nhưng với Yamaha, họ không chỉ là những kỹ sư ưu tú, họ còn là những nhà soạn nhạc ưu tú.
-                        </p>
-                        <p class="text_content t-content">
-                          Như các bạn đã biết, Yamaha có kinh nghiệm hơn một trăm năm trong ngành sản xuất nhạc cụ. Họ am hiểu sâu sắc các nhà soạn nhạc, thậm chí nhiều kỹ sư của họ cũng là nhà soạn
-                          nhạc. Họ hiểu cách các nhà soạn nhạc lay động lòng người bằng âm nhạc. Đó chính là lý do chúng tôi lựa chọn Yamaha.
-                        </p>
-                      </div>
-                      <div class="play-container">
-                        <img src="assets/images/play.png" alt="" class="btn-play" />
-                        <p><i class="fas fa-caret-left"></i>Click để xem video</p>
-                      </div>
+              </div>
+              <div class="page page-2" index="2">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">2</p>
+                  <p class="page-title">
+                    Giới chuyên môn đánh giá khá cao chất lượng của bộ loa <br />
+                    trên Xforce. Vì sao Mitsubishi Motors lại chọn hợp tác cùng Yamaha?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">
+                        - Chúng tôi đã làm việc với nhiều nhà sản xuất loa khác nhau trong quá trình phát triển Xforce. Có nhà sản xuất cũng mang đến những sản phẩm hiệu suất cao khi đánh giá về
+                        tính khả dụng lẫn nhịp điệu âm thanh, tương tự Yamaha. Nhưng khi đánh giá về phần nhạc, chúng tôi chọn Yamaha bởi họ mang đến trải nghiệm như một buổi hoà nhạc trực tiếp. Các
+                        hãng sản xuất âm thanh khác cũng rất xuất sắc, đặc biệt ở mảng kỹ thuật. Nhưng với Yamaha, họ không chỉ là những kỹ sư ưu tú, họ còn là những nhà soạn nhạc ưu tú.
+                      </p>
+                      <p class="text_content t-content">
+                        Như các bạn đã biết, Yamaha có kinh nghiệm hơn một trăm năm trong ngành sản xuất nhạc cụ. Họ am hiểu sâu sắc các nhà soạn nhạc, thậm chí nhiều kỹ sư của họ cũng là nhà soạn
+                        nhạc. Họ hiểu cách các nhà soạn nhạc lay động lòng người bằng âm nhạc. Đó chính là lý do chúng tôi lựa chọn Yamaha.
+                      </p>
                     </div>
-                    <div class="right-container">
-                      <div class="video-container d-none">
-                        <div class="ratio">
-                          <div class="iframe-container">
-                            <video class="video" controls>
-                              <source src="assets/images/demo.mp4" type="video/mp4" />
-                            </video>
-                            <!-- <iframe
+                    <div class="play-container pc">
+                      <img src="assets/images/play.png" alt="" class="btn-play" />
+                      <p><i class="fas fa-caret-left"></i>Click để xem video</p>
+                    </div>
+                  </div>
+                  <div class="right-container">
+                    <div class="video-container d-none">
+                      <div class="ratio">
+                        <div class="iframe-container">
+                          <video class="video" controls>
+                            <source src="assets/images/demo.mp4" type="video/mp4" />
+                          </video>
+                          <!-- <iframe
                               data-image="1"
                               data-status="stop"
                               data-view="outview"
@@ -332,268 +338,245 @@
                               frameborder="0"
                               allowfullscreen=""
                             ></iframe> -->
-                          </div>
                         </div>
                       </div>
+                    </div>
 
-                      <img src="assets/images/page-2/img-1.jpg" alt="" class="img page-2-img-1 img-thum" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="700" />
-                      <p class="script-img" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="900">Yamaha <br />Dynamic Sound<br />Premium</p>
+                    <img src="assets/images/page-2/img-1.jpg" alt="" class="img page-2-img-1 img-thum" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="700" />
+                    <p class="script-img" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="900">Yamaha <br />Dynamic Sound<br />Premium</p>
+
+                    <div class="play-container mobile">
+                      <img src="assets/images/play.png" alt="" class="btn-play" />
+                      <p><i class="fas fa-caret-left"></i>Click để xem video</p>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="page page-3" index="3">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">3</p>
-                    <p class="page-title">
-                      Xforce có khoảng giá khá giao thoa với Xpander. <br />
-                      Liệu hai sản phẩm này có lấy khách hàng của nhau? <br />Đâu là định vị khách hàng phù hợp cho từng sản phẩm?
-                    </p>
-                  </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">
-                          - Từ khi ra mắt vào năm 2018, Xpander đã và đang nhận được sự yêu mến của người dùng, giữ vững vị trí mẫu xe bán chạy nhất phân khúc MPV trong 5 năm liên tiếp tại Việt Nam.
-                        </p>
-                        <p class="text_content t-content">
-                          Dựa trên sự thành công của Xpander, chúng tôi đã không ngừng tìm hiểu nhu cầu, xây dựng các dòng sản phẩm đáp ứng tốt hơn các đòi hỏi ngày một đa dạng của khách hàng. Hiểu
-                          được nhu cầu về một chiếc SUV đô thị cỡ nhỏ tại Việt Nam, chúng tôi quyết định phát triển Xforce với nhiều giá trị vượt trội, có ưu thế cạnh tranh trong phân khúc.
-                        </p>
-                        <p class="text_content t-content">
-                          Xpander hướng tới nhóm khách hàng gia đình đông thành viên, còn Xforce lại có nhóm khách hàng mục tiêu là các gia đình nhỏ, ít thành viên hơn. Ngoài ra, Xforce cũng hướng đến
-                          người dùng cá nhân, mong muốn sở hữu dòng xe phù hợp cá tính của bản thân. Tỷ lệ khách hàng nữ của mẫu xe này cũng cao hơn Xpander.
-                        </p>
-                        <p class="text_content t-content">
-                          Nhìn vào danh mục sản phẩm của Mitsubishi Motors Việt Nam hiện tại, đúng là có sự tương đồng về tầm giá giữa Xpander và Xforce. Tuy nhiên, điều này cũng thể hiện sự hài hòa
-                          giữa hai mẫu xe chứ không phải trùng lặp, chồng chéo. Mỗi định vị khách hàng của từng mẫu xe đều có nhu cầu riêng biệt và chúng tôi đang nỗ lực đáp ứng một cách tốt nhất.
-                          Xpander là người bạn đồng hành của đại gia đình trong khi Xforce phù hợp cho cuộc sống năng động của gia đình nhỏ hoặc khách hàng cá nhân.
-                        </p>
-                      </div>
+              <div class="page page-3" index="3">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">3</p>
+                  <p class="page-title">
+                    Xforce có khoảng giá khá giao thoa với Xpander. <br />
+                    Liệu hai sản phẩm này có lấy khách hàng của nhau? <br />Đâu là định vị khách hàng phù hợp cho từng sản phẩm?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">
+                        - Từ khi ra mắt vào năm 2018, Xpander đã và đang nhận được sự yêu mến của người dùng, giữ vững vị trí mẫu xe bán chạy nhất phân khúc MPV trong 5 năm liên tiếp tại Việt Nam.
+                      </p>
+                      <p class="text_content t-content">
+                        Dựa trên sự thành công của Xpander, chúng tôi đã không ngừng tìm hiểu nhu cầu, xây dựng các dòng sản phẩm đáp ứng tốt hơn các đòi hỏi ngày một đa dạng của khách hàng. Hiểu
+                        được nhu cầu về một chiếc SUV đô thị cỡ nhỏ tại Việt Nam, chúng tôi quyết định phát triển Xforce với nhiều giá trị vượt trội, có ưu thế cạnh tranh trong phân khúc.
+                      </p>
+                      <p class="text_content t-content">
+                        Xpander hướng tới nhóm khách hàng gia đình đông thành viên, còn Xforce lại có nhóm khách hàng mục tiêu là các gia đình nhỏ, ít thành viên hơn. Ngoài ra, Xforce cũng hướng đến
+                        người dùng cá nhân, mong muốn sở hữu dòng xe phù hợp cá tính của bản thân. Tỷ lệ khách hàng nữ của mẫu xe này cũng cao hơn Xpander.
+                      </p>
+                      <p class="text_content t-content">
+                        Nhìn vào danh mục sản phẩm của Mitsubishi Motors Việt Nam hiện tại, đúng là có sự tương đồng về tầm giá giữa Xpander và Xforce. Tuy nhiên, điều này cũng thể hiện sự hài hòa
+                        giữa hai mẫu xe chứ không phải trùng lặp, chồng chéo. Mỗi định vị khách hàng của từng mẫu xe đều có nhu cầu riêng biệt và chúng tôi đang nỗ lực đáp ứng một cách tốt nhất.
+                        Xpander là người bạn đồng hành của đại gia đình trong khi Xforce phù hợp cho cuộc sống năng động của gia đình nhỏ hoặc khách hàng cá nhân.
+                      </p>
                     </div>
-                    <div class="right-container">
-                      <div class="group_image group_img_1">
-                        <img
-                          loading="lazy"
-                          class="eff-screen"
-                          src="assets/images/page-3/group_1_1.png"
-                          alt=""
-                          data-aos="zoom-out"
-                          data-aos-offset="300"
-                          data-aos-duration="1000"
-                          data-aos-delay="700"
-                        />
-                        <img loading="lazy" src="assets/images/page-3/group_1_2.png" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1000" alt="" />
-                      </div>
+                  </div>
+                  <div class="right-container">
+                    <div class="group_image group_img_1">
+                      <img loading="lazy" class="eff-screen" src="assets/images/page-3/group_1_1.png" alt="" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="700" />
+                      <img loading="lazy" src="assets/images/page-3/group_1_2.png" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1000" alt="" />
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="page page-4" index="4">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">4</p>
-                    <p class="page-title">
-                      Mitsubishi Motors đã rất thành công với Xpander. Vậy đâu là những <br />
-                      kinh nghiệm được kế thừa trong triết lý xây dựng sản phẩm, <br />cũng như chiến lược bán hàng từ Xpander sang Xforce?
-                    </p>
-                  </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">- Đây là một câu hỏi thú vị!</p>
-                        <p class="text_content t-content">
-                          Từ khi ra mắt tại Việt Nam, Xpander đã khẳng định vị thế là dòng MPV bán chạy nhất với hơn 90.000 chiếc được bán ra trong vòng 5 năm. Thành công này mang lại cho chúng tôi
-                          trải nghiệm quý báu trong việc xây dựng dòng sản phẩm phù hợp với thị trường Việt Nam.
-                        </p>
-                        <p class="text_content t-content">
-                          Đầu tiên, thành công của Xpander đến từ thiết kế ngoại thất hiện đại cùng nội thất cao cấp. Xforce cũng thừa hưởng những đặc điểm này. Ngoại thất được chúng tôi tạo ấn tượng
-                          mạnh mẽ, kết hợp nội thất chau chuốt, tạo cảm giác sang trọng, đem đến sự hứng khởi cho người dùng. Đây là ưu thế đầu tiên của Xforce.
-                        </p>
-                        <p class="text_content t-content">
-                          Thứ hai, Xpander thuyết phục người dùng nhờ không gian nội thất rộng rãi, tiện nghi. Tương tự, Xforce cũng có không gian nội thất rộng hàng đầu phân khúc, được tối ưu nhằm
-                          mang lại sự thoải mái cho toàn bộ 5 hành khách trên xe. Sự tiện nghi được mở rộng nhờ hệ thống âm thanh Dynamic Sound Yamaha Premium, màn hình giải trí đa thông tin 12,3
-                          inch, đồng hồ kỹ thuật số 8 inch, bệ tì tay tích hợp cửa gió điều hòa và nhiều tính năng khác. Sự tiện nghi là ưu thế thứ hai của Xforce.
-                        </p>
-                        <p class="text_content t-content">
-                          Cuối cùng, tính thực dụng thể hiện qua khả năng vận hành là điều khách hàng đánh giá cao về Xpander. Dòng xe này tiết kiệm nhiên liệu nhờ sử dụng động cơ 1.5 hiệu quả và bền
-                          bỉ, khoảng sáng gầm hàng đầu phân khúc, tầm nhìn tốt cùng tính năng AYC (Hệ thống kiểm soát vào cua chủ động). Các đặc điểm này đều được thừa hưởng bởi Xforce.
-                        </p>
-                        <p class="text_content t-content">
-                          Thêm vào đó, chúng tôi đã tiến hành thử nghiệm trên hơn 4.000 km trong điều kiện thực tế tại Việt Nam để có những điều chỉnh phù hợp. Như các bạn có thể thấy, bốn chế độ lái
-                          được phát triển nhằm đảm bảo vận hành an toàn
-                        </p>
-                      </div>
+              <div class="page page-4" index="4">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">4</p>
+                  <p class="page-title">
+                    Mitsubishi Motors đã rất thành công với Xpander. Vậy đâu là những <br />
+                    kinh nghiệm được kế thừa trong triết lý xây dựng sản phẩm, <br />cũng như chiến lược bán hàng từ Xpander sang Xforce?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">- Đây là một câu hỏi thú vị!</p>
+                      <p class="text_content t-content">
+                        Từ khi ra mắt tại Việt Nam, Xpander đã khẳng định vị thế là dòng MPV bán chạy nhất với hơn 90.000 chiếc được bán ra trong vòng 5 năm. Thành công này mang lại cho chúng tôi
+                        trải nghiệm quý báu trong việc xây dựng dòng sản phẩm phù hợp với thị trường Việt Nam.
+                      </p>
+                      <p class="text_content t-content">
+                        Đầu tiên, thành công của Xpander đến từ thiết kế ngoại thất hiện đại cùng nội thất cao cấp. Xforce cũng thừa hưởng những đặc điểm này. Ngoại thất được chúng tôi tạo ấn tượng
+                        mạnh mẽ, kết hợp nội thất chau chuốt, tạo cảm giác sang trọng, đem đến sự hứng khởi cho người dùng. Đây là ưu thế đầu tiên của Xforce.
+                      </p>
+                      <p class="text_content t-content">
+                        Thứ hai, Xpander thuyết phục người dùng nhờ không gian nội thất rộng rãi, tiện nghi. Tương tự, Xforce cũng có không gian nội thất rộng hàng đầu phân khúc, được tối ưu nhằm
+                        mang lại sự thoải mái cho toàn bộ 5 hành khách trên xe. Sự tiện nghi được mở rộng nhờ hệ thống âm thanh Dynamic Sound Yamaha Premium, màn hình giải trí đa thông tin 12,3
+                        inch, đồng hồ kỹ thuật số 8 inch, bệ tì tay tích hợp cửa gió điều hòa và nhiều tính năng khác. Sự tiện nghi là ưu thế thứ hai của Xforce.
+                      </p>
+                      <p class="text_content t-content">
+                        Cuối cùng, tính thực dụng thể hiện qua khả năng vận hành là điều khách hàng đánh giá cao về Xpander. Dòng xe này tiết kiệm nhiên liệu nhờ sử dụng động cơ 1.5 hiệu quả và bền
+                        bỉ, khoảng sáng gầm hàng đầu phân khúc, tầm nhìn tốt cùng tính năng AYC (Hệ thống kiểm soát vào cua chủ động). Các đặc điểm này đều được thừa hưởng bởi Xforce.
+                      </p>
+                      <p class="text_content t-content">
+                        Thêm vào đó, chúng tôi đã tiến hành thử nghiệm trên hơn 4.000 km trong điều kiện thực tế tại Việt Nam để có những điều chỉnh phù hợp. Như các bạn có thể thấy, bốn chế độ lái
+                        được phát triển nhằm đảm bảo vận hành an toàn
+                      </p>
                     </div>
-                    <div class="right-container" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="700">
-                      <p class="slide-des">Click vào ảnh để phóng to</p>
-                      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-1.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-2.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-3.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-4.png" />
-                          </div>
+                  </div>
+                  <div class="right-container" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="700">
+                    <p class="slide-des">Click vào ảnh để phóng to</p>
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-1.png" />
                         </div>
-                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-2.png" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-3.png" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-4.png" />
+                        </div>
+                      </div>
+                      <!-- <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div> -->
-                      </div>
-                      <div thumbsSlider="" class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-1.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-2.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-3.png" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/images/page-4/img-4.png" />
-                          </div>
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-1.png" />
                         </div>
-                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-2.png" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-3.png" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/images/page-4/img-4.png" />
+                        </div>
+                      </div>
+                      <!-- <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div> -->
-                      </div>
-                      <div class="my-group-btn">
-                        <i class="far fa-long-arrow-alt-right swiper-button-next"></i>
+                    </div>
+                    <div class="my-group-btn">
+                      <i class="far fa-long-arrow-alt-right swiper-button-next"></i>
 
-                        <i class="far fa-long-arrow-alt-left swiper-button-prev"></i>
-                      </div>
+                      <i class="far fa-long-arrow-alt-left swiper-button-prev"></i>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="page page-5" index="5">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">5</p>
-                    <p class="page-title">
-                      Hãng đã có những nghiên cứu như thế nào tại Đông Nam Á <br />
-                      để phát triển Xforce? Đâu là tính năng, đặc điểm ra đời <br />từ việc nghiên cứu khách hàng Việt Nam?
-                    </p>
-                  </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">- Đây là một câu hỏi thú vị!</p>
-                        <p class="text_content t-content">
-                          - Chúng tôi đã thực hiện hai hướng tiếp cận nghiên cứu. Đầu tiên là khảo sát, chúng tôi phỏng vấn trực tiếp người dùng. Tiếp theo là về trải nghiệm lái. Với hướng tiếp cận
-                          đầu tiên, chúng tôi phỏng vấn và khảo sát trên hơn 1.000 khách hàng tại khu vực Đông Nam Á, trong đó có Việt Nam về ý tưởng, thiết kế và âm thanh, những tính năng chính chúng
-                          tôi muốn tìm hiểu. Sau khảo sát, chúng tôi quyết định thêm đa dạng ngăn chứa đồ cho xe, đặc biệt là hộc chứa tích hợp cửa gió điều hòa.
-                        </p>
-                        <p class="text_content t-content">
-                          Từ kết quả của nghiên cứu, chúng tôi nhận thấy nhu cầu sạc điện thoại của khách hàng do tình trạng thường xuyên kẹt xe, ùn tắc giao thông tại khu vực Đông Nam Á và đưa thêm
-                          vào các cổng sạc cho cả hàng ghế trước và sau. Thông qua khảo sát, chúng tôi cũng bổ sung cửa gió điều hòa độc đáo phía dưới tay lái, mang lại cảm giác mát mẻ, dễ chịu cho
-                          người lái ngay cả trong điều kiện thời tiết mùa hè nóng nực.
-                        </p>
-                        <p class="text_content t-content">
-                          Bên cạnh đó, khi tiến hành thực nghiệm lái trên 4.000 km trong điều kiện đường sá Việt Nam và các nước Đông Nam Á khác, tương tự với Xpander, chúng tôi nhận thấy khoảng sáng
-                          gầm là yếu tố rất quan trọng khi phải di chuyển trên các cung đường gồ ghề hay ngập nước. Vì vậy chúng tôi thiết kế xe với khoảng sáng gầm, góc tiếp cận và góc thoát hàng đầu
-                          phân khúc.
-                        </p>
-                        <p class="text_content t-content">
-                          Thêm vào đó, chúng tôi còn trang bị cho xe các chế độ lái, đặc biệt là chế độ “Đường Ngập nước”. Đây là chế độ được thiết kế riêng cho khu vực Đông Nam Á và Việt Nam, giúp
-                          người lái tự tin vượt qua các cung đường ngập, đường ướt, trơn trượt.
-                        </p>
-                        <p class="text_content t-content">
-                          Cuối cùng, dựa vào kết quả khảo sát, chúng tôi thực hiện tinh chỉnh hệ thống treo và tay lái phù hợp với điều kiện đường sá khu vực. Chúng tôi đặc biệt quan tâm đến sự thoải
-                          mái của khách hàng, dù gặp phải địa hình xấu.
-                        </p>
-                      </div>
+              <div class="page page-5" index="5">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">5</p>
+                  <p class="page-title">
+                    Hãng đã có những nghiên cứu như thế nào tại Đông Nam Á <br />
+                    để phát triển Xforce? Đâu là tính năng, đặc điểm ra đời <br />từ việc nghiên cứu khách hàng Việt Nam?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">- Đây là một câu hỏi thú vị!</p>
+                      <p class="text_content t-content">
+                        - Chúng tôi đã thực hiện hai hướng tiếp cận nghiên cứu. Đầu tiên là khảo sát, chúng tôi phỏng vấn trực tiếp người dùng. Tiếp theo là về trải nghiệm lái. Với hướng tiếp cận
+                        đầu tiên, chúng tôi phỏng vấn và khảo sát trên hơn 1.000 khách hàng tại khu vực Đông Nam Á, trong đó có Việt Nam về ý tưởng, thiết kế và âm thanh, những tính năng chính chúng
+                        tôi muốn tìm hiểu. Sau khảo sát, chúng tôi quyết định thêm đa dạng ngăn chứa đồ cho xe, đặc biệt là hộc chứa tích hợp cửa gió điều hòa.
+                      </p>
+                      <p class="text_content t-content">
+                        Từ kết quả của nghiên cứu, chúng tôi nhận thấy nhu cầu sạc điện thoại của khách hàng do tình trạng thường xuyên kẹt xe, ùn tắc giao thông tại khu vực Đông Nam Á và đưa thêm
+                        vào các cổng sạc cho cả hàng ghế trước và sau. Thông qua khảo sát, chúng tôi cũng bổ sung cửa gió điều hòa độc đáo phía dưới tay lái, mang lại cảm giác mát mẻ, dễ chịu cho
+                        người lái ngay cả trong điều kiện thời tiết mùa hè nóng nực.
+                      </p>
+                      <p class="text_content t-content">
+                        Bên cạnh đó, khi tiến hành thực nghiệm lái trên 4.000 km trong điều kiện đường sá Việt Nam và các nước Đông Nam Á khác, tương tự với Xpander, chúng tôi nhận thấy khoảng sáng
+                        gầm là yếu tố rất quan trọng khi phải di chuyển trên các cung đường gồ ghề hay ngập nước. Vì vậy chúng tôi thiết kế xe với khoảng sáng gầm, góc tiếp cận và góc thoát hàng đầu
+                        phân khúc.
+                      </p>
+                      <p class="text_content t-content">
+                        Thêm vào đó, chúng tôi còn trang bị cho xe các chế độ lái, đặc biệt là chế độ “Đường Ngập nước”. Đây là chế độ được thiết kế riêng cho khu vực Đông Nam Á và Việt Nam, giúp
+                        người lái tự tin vượt qua các cung đường ngập, đường ướt, trơn trượt.
+                      </p>
+                      <p class="text_content t-content">
+                        Cuối cùng, dựa vào kết quả khảo sát, chúng tôi thực hiện tinh chỉnh hệ thống treo và tay lái phù hợp với điều kiện đường sá khu vực. Chúng tôi đặc biệt quan tâm đến sự thoải
+                        mái của khách hàng, dù gặp phải địa hình xấu.
+                      </p>
                     </div>
-                    <div class="right-container">
-                      <div class="group_image group_img_1">
-                        <img
-                          loading="lazy"
-                          class="eff-screen"
-                          src="assets/images/page-5/group_1_1.png"
-                          alt=""
-                          data-aos="fade-down-left"
-                          data-aos-offset="300"
-                          data-aos-duration="1000"
-                          data-aos-delay="700"
-                        />
-                        <img loading="lazy" src="assets/images/page-5/group_1_2.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1000" alt="" />
-                        <img loading="lazy" src="assets/images/page-5/group_1_3.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1400" alt="" />
-                      </div>
+                  </div>
+                  <div class="right-container">
+                    <div class="group_image group_img_1">
+                      <img loading="lazy" class="eff-screen" src="assets/images/page-5/group_1_1.png" alt="" data-aos="fade-down-left" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="700" />
+                      <img loading="lazy" src="assets/images/page-5/group_1_2.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1000" alt="" />
+                      <img loading="lazy" src="assets/images/page-5/group_1_3.png" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="1400" alt="" />
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="page page-6" index="6">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">6</p>
-                    <p class="page-title">
-                      Vì sao Đông Nam Á, trong đó có Việt Nam lại là ưu tiên <br />
-                      phát triển sản phẩm mới của Mitsubishi Motors toàn cầu?
-                    </p>
+              <div class="page page-6" index="6">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">6</p>
+                  <p class="page-title">
+                    Vì sao Đông Nam Á, trong đó có Việt Nam lại là ưu tiên <br />
+                    phát triển sản phẩm mới của Mitsubishi Motors toàn cầu?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">
+                        - Chúng tôi xác định ASEAN là thị trường trọng điểm của Mitsubishi Motors trong kế hoạch trung hạn vào năm ngoái. Sau đó, chúng tôi cũng xem xét các dòng xe hiện có tại khu
+                        vực cũng như từng nước và nhận thấy, tuy các dòng xe vẫn được đón nhận nhưng chưa có sản phẩm thực sự nổi trội.
+                      </p>
+                      <p class="text_content t-content">
+                        Vì vậy, chúng tôi quyết định phát triển thêm một vài mẫu xe khác nhau cho từng khu vực tại Đông Nam Á, trong đó có Việt Nam, nhằm thoả mãn nhu cầu khách hàng mỗi nước. Tại
+                        Việt Nam, chúng tôi đã ra mắt Xforce, dự kiến giới thiệu thêm các mẫu xe khác trong tương lai.
+                      </p>
+                    </div>
+
+                    <div class="group_image group_img_1">
+                      <img loading="lazy" class="eff-screen" src="assets/images/page-6/group_1_1.png" alt="" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" />
+                      <img loading="lazy" src="assets/images/page-6/group_1_2.png" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
+                      <img loading="lazy" src="assets/images/page-6/group_1_3.png" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
+                      <img loading="lazy" src="assets/images/page-6/group_1_4.png" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
+                    </div>
                   </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">
-                          - Chúng tôi xác định ASEAN là thị trường trọng điểm của Mitsubishi Motors trong kế hoạch trung hạn vào năm ngoái. Sau đó, chúng tôi cũng xem xét các dòng xe hiện có tại khu
-                          vực cũng như từng nước và nhận thấy, tuy các dòng xe vẫn được đón nhận nhưng chưa có sản phẩm thực sự nổi trội.
-                        </p>
-                        <p class="text_content t-content">
-                          Vì vậy, chúng tôi quyết định phát triển thêm một vài mẫu xe khác nhau cho từng khu vực tại Đông Nam Á, trong đó có Việt Nam, nhằm thoả mãn nhu cầu khách hàng mỗi nước. Tại
-                          Việt Nam, chúng tôi đã ra mắt Xforce, dự kiến giới thiệu thêm các mẫu xe khác trong tương lai.
-                        </p>
-                      </div>
-
-                      <div class="group_image group_img_1">
-                        <img
-                          loading="lazy"
-                          class="eff-screen"
-                          src="assets/images/page-6/group_1_1.png"
-                          alt=""
-                          data-aos="fade-right"
-                          data-aos-offset="0"
-                          data-aos-duration="1000"
-                          data-aos-delay="200"
-                        />
-                        <img loading="lazy" src="assets/images/page-6/group_1_2.png" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
-                        <img loading="lazy" src="assets/images/page-6/group_1_3.png" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
-                        <img loading="lazy" src="assets/images/page-6/group_1_4.png" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="200" alt="" />
-                      </div>
-                    </div>
-                    <div class="right-container" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="800">
-                      <img src="assets/images/page-6/img-1.jpg" alt="" class="img img-1" />
-                    </div>
+                  <div class="right-container" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="800">
+                    <img src="assets/images/page-6/img-1.jpg" alt="" class="img img-1" />
                   </div>
                 </div>
+              </div>
 
-                <div class="page page-7" index="7">
-                  <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
-                    <p class="page-number">7</p>
-                    <p class="page-title">
-                      Việt Nam được xem như thị trường chiến lược của Mitsubishi Motors. <br />
-                      Vậy những hành động cụ thể nào đã, đang và sẽ được hãng <br />thực hiện, nhằm thể hiện cam kết đầu tư lâu dài?
-                    </p>
+              <div class="page page-7" index="7">
+                <div class="page-title-container" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="100">
+                  <p class="page-number">7</p>
+                  <p class="page-title">
+                    Việt Nam được xem như thị trường chiến lược của Mitsubishi Motors. <br />
+                    Vậy những hành động cụ thể nào đã, đang và sẽ được hãng <br />thực hiện, nhằm thể hiện cam kết đầu tư lâu dài?
+                  </p>
+                </div>
+                <div class="page-content">
+                  <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
+                    <div class="group_text group_text_2">
+                      <p class="text_content t-content">
+                        - Trong điều kiện thị trường cạnh tranh hiện nay, sự hài lòng của khách hàng đối với sản phẩm và dịch vụ của Mitsubishi Motors luôn là yếu tố quan trọng nhất, là xu thế phát
+                        triển của tương lai. Chúng tôi đã, đang và sẽ tập trung vào các chiến lược trọng tâm sau: Phát triển sản phẩm; Nâng cấp quy mô và mạng lưới nhà phân phối chuyên nghiệp; Phát
+                        triển nguồn nhân lực bao gồm cả hệ thống Nhà phân phối; Mở rộng năng lực sản xuất, cung cấp các mẫu xe mới ra thị trường.
+                      </p>
+                      <p class="text_content t-content">Cuối cùng, Mitsubishi Motors sẽ tăng cường các hoạt động đóng góp cho xã hội và cộng đồng tại Việt Nam.</p>
+                      <p class="text_content t-content italic">Xin cảm ơn!</p>
+                    </div>
                   </div>
-                  <div class="page-content">
-                    <div class="left-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300">
-                      <div class="group_text group_text_2">
-                        <p class="text_content t-content">
-                          - Trong điều kiện thị trường cạnh tranh hiện nay, sự hài lòng của khách hàng đối với sản phẩm và dịch vụ của Mitsubishi Motors luôn là yếu tố quan trọng nhất, là xu thế phát
-                          triển của tương lai. Chúng tôi đã, đang và sẽ tập trung vào các chiến lược trọng tâm sau: Phát triển sản phẩm; Nâng cấp quy mô và mạng lưới nhà phân phối chuyên nghiệp; Phát
-                          triển nguồn nhân lực bao gồm cả hệ thống Nhà phân phối; Mở rộng năng lực sản xuất, cung cấp các mẫu xe mới ra thị trường.
-                        </p>
-                        <p class="text_content t-content">Cuối cùng, Mitsubishi Motors sẽ tăng cường các hoạt động đóng góp cho xã hội và cộng đồng tại Việt Nam.</p>
-                        <p class="text_content t-content italic">Xin cảm ơn!</p>
-                      </div>
-                    </div>
-                    <div class="right-container">
-                      <img src="assets/images/page-7/img-1.jpg" alt="" class="img img-1" data-aos="zoom-in" data-aos-duration="800" data-aos-offset="0" data-aos-delay="700" />
-                      <img src="assets/images/page-7/img-2.png" alt="" class="img img-2" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="1200" />
-                    </div>
+                  <div class="right-container">
+                    <img src="assets/images/page-7/img-1.jpg" alt="" class="img img-1" data-aos="zoom-in" data-aos-duration="800" data-aos-offset="0" data-aos-delay="700" />
+                    <img src="assets/images/page-7/img-2.png" alt="" class="img img-2" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" data-aos-delay="1200" />
                   </div>
                 </div>
               </div>
@@ -601,28 +584,30 @@
           </div>
         </div>
       </div>
-      <!-- End Main Content -->
-
-      <!-- COMMENTS BOX -->
-      <!-- END COMMENTS BOX -->
     </div>
-    <!-- End Document Warpper -->
+    <!-- End Main Content -->
 
-    <!-- Core Script -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.migrate.min.js"></script>
-    <script type="text/javascript" src="assets/js/header-sticky.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="assets/js/lib.min.js"></script>
-    <!-- End Core Script -->
+    <!-- COMMENTS BOX -->
+    <!-- END COMMENTS BOX -->
+  </div>
+  <!-- End Document Warpper -->
 
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.min.js"></script>
-    <script>
-      AOS.init({ offset: 120, duration: 3000 });
-      document.querySelectorAll("img").forEach((img) => img.addEventListener("load", () => AOS.refresh()));
-    </script>
-  </body>
+  <!-- Core Script -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.migrate.min.js"></script>
+  <script type="text/javascript" src="assets/js/header-sticky.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="assets/js/lib.min.js"></script>
+  <!-- End Core Script -->
+
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.min.js"></script>
+  <script>
+    AOS.init({ offset: 120, duration: 3000 });
+    document.querySelectorAll("img").forEach((img) => img.addEventListener("load", () => AOS.refresh()));
+  </script>
+</body>
+
 </html>
